@@ -61,7 +61,7 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_info {
-  color: #84838b;
+  color: #afb4af;
 }
 
 .resume_wrapper .resume_left .resume_bottom {
@@ -72,6 +72,21 @@ body {
   padding: 20px 0;
   border-bottom: 1px solid #0175b2;
 }
+
+.resume_titlecomp {
+  border-bottom: 1px solid #0175b2;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+}
+
+.resume_subinfosite {
+  background-color: antiquewhite;
+}
+
 .resume_info .skills_list .skills_left {
   word-spacing: 5px;
 }
