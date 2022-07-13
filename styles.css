@@ -24,8 +24,11 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
-.speak {
-  font-size: 12px;
+.speak1 {
+  font-size: 11px;
+}
+.speak2 {
+  font-size: 11px;
 }
 .resume_wrapper {
   display: flex;
@@ -84,7 +87,7 @@ body {
 }
 
 .resume_subinfosite {
-  background-color: antiquewhite;
+  background-color: #8ba7b8;
 }
 
 .resume_info .skills_list .skills_left {
@@ -224,6 +227,16 @@ body {
   .resume_wrapper .resume_right {
     width: 100%;
   }
+
+  .speak1 {
+    font-size: 12px;
+    padding-left: 9rem;
+  }
+
+  .speak2 {
+    font-size: 12px;
+    padding-left: 10rem;
+  }
 }
 
 @media screen and (max-width: 424px) {
@@ -250,4 +263,15 @@ body {
   .resume_wrapper .resume_right .resmue_interests .interests .int_icon {
     font-size: 24px;
   }
+
+  .speak1 {
+    font-size: 10px;
+    padding-left: 9rem;
+  }
+
+  .speak2 {
+    font-size: 10px;
+    padding-left: 10rem;
+  }
 }
+
