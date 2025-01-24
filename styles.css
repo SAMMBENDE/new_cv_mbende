@@ -17,11 +17,16 @@ ul li {
 
 .blue {
   color: #0175b2;
-  font-weight: bold;
+  font-weight:700;
 }
+
+.diplome {
+  font-size: 10px;
+}
+
 body {
   background: #c4c4c4;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
 }
 .speak1 {
@@ -35,7 +40,7 @@ body {
   width: 800px;
   margin: 50px auto;
   background: #fff;
-  padding: 10px;
+  padding: 8px;
 }
 
 .resume_wrapper .resume_left {
@@ -44,7 +49,7 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_image {
-  width: 100%;
+  width: 100%;  
   background-color: #a1c2d4;
 }
 
@@ -57,10 +62,10 @@ body {
 .resume_wrapper .resume_title {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 16px;
-  margin-bottom: 10px;
-  letter-spacing: 4px;
+  margin-bottom: 2px;
+  letter-spacing: 2px;
 }
 
 .resume_wrapper .resume_left .resume_info {
@@ -73,7 +78,7 @@ body {
 
 .resume_wrapper .resume_item {
   padding: 20px 0;
-  border-bottom: 1px solid #0175b2;
+  /* border-bottom: 1px solid #0175b2; */
 }
 
 .resume_titlecomp {
@@ -81,17 +86,19 @@ body {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 2px;
   letter-spacing: 4px;
 }
 
 .resume_subinfosite {
-  background-color: #8ba7b8;
+  color: #ffffff;
+  background-color: aqua;
 }
 
 .resume_info .skills_list .skills_left {
   word-spacing: 5px;
+  
 }
 
 .resume_wrapper .resume_item:last-child {
@@ -108,6 +115,7 @@ body {
   font-weight: 700;
   margin-bottom: 5px;
   letter-spacing: 1px;
+  
 }
 
 .resume_wrapper .resume_left .resume_namerole .role {
@@ -115,12 +123,12 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_contact .resume_info:last-child {
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 .resume_wrapper .resume_left .resume_contact .resume_subtitle {
   color: #fff;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
 
 .resume_wrapper .resume_left .resume_skills .skills_list {
@@ -144,13 +152,18 @@ body {
 
 .resume_wrapper .resume_right .resume_namerole .name {
   color: #26252d;
-  font-size: 32px;
+  font-size: 24px;
+  
 }
 
 .resume_wrapper .resume_right .resume_namerole .role {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 700;
   text-transform: uppercase;
-  padding-top: 15px;
+  padding-top: 5px;
+  color: #0175b2;
+  word-spacing: 3px;
+  
 }
 
 .resume_wrapper .resume_right .resume_item .resume_title {
@@ -162,14 +175,14 @@ body {
 }
 
 .resume_wrapper .resume_right .resume_data .year {
-  padding-right: 8px;
+  padding-right: 10px;
   width: 115px;
   position: relative;
 }
 
 .resume_wrapper .resume_right .resume_data .content {
   padding-left: 35px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: calc(100% - 115px);
 }
 
@@ -205,11 +218,31 @@ body {
   text-align: center;
 }
 
-.resume_wrapper .resume_right .resmue_interests .interests .int_icon {
+.resume_wrapper .resume_right .resmue_interests .interests .int_icon {  
+   
   font-size: 38px;
   color: #0175b2;
   margin-bottom: 10px;
 }
+
+
+
+/* IBM links */
+
+.ibms {
+  padding: 0;
+  list-style-type: none;
+}
+
+.ibms li.details {
+  display: flex;
+}
+
+.ibms li.details span {
+  margin-right: 30px; 
+}
+
+
 
 @media screen and (max-width: 800px) {
   .resume_wrapper .resume_right .resume_namerole {
@@ -260,8 +293,18 @@ body {
     width: 100%;
     padding: 0;
   }
+
+   
+  
+
   .resume_wrapper .resume_right .resmue_interests .interests .int_icon {
-    font-size: 24px;
+    font-size: 14px;
+       
+    
+  }
+  .resume_info {
+    display: flex;
+
   }
 
   .speak1 {
@@ -273,5 +316,7 @@ body {
     font-size: 10px;
     padding-left: 10rem;
   }
+
+  
 }
 
